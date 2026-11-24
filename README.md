@@ -1,2 +1,3 @@
 # LLM-From-Scratch
-A decoder-only transformer language model written from scratch in PyTorch and pretrained on FineWeb using a single laptop GPU (RTX 4060, 8 GB).
+162M Parameter Pretrained Large Language Model trained on an RTX 4060 Laptop GPU on 4 billion tokens from Fineweb. 
+Final Validation Loss Achieved: 3.494
