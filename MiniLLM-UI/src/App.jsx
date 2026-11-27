@@ -114,7 +114,7 @@ export default function App() {
     setLoadingId(id);
     setError("");
     try {
-      const res = await fetch("http://localhost:8000/generate", {
+      const res = await fetch("https://emmanueliwinosa7--minillm-fastapi-app.us-east.modal.run/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
